@@ -1,0 +1,97 @@
+.comentario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    background-color: blue;
+    background-color: #c3191911;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.comentario p:nth-child(1) {
+    color: #8E2424;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.comentario h4 {
+    color: #101828;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -5px;
+    padding: 0px 10px;
+}
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.perfil img {
+width: 80px;
+height: 80px;
+}
+.perfil p:nth-child(2) {
+    color: #101828;
+    font-weight: 500;
+    font-size: 22px;
+}
+.perfil p:nth-child(3) {
+    color: #667085;
+    font-size: 22px;
+   margin-top: -10px;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.rodape h4 {
+    color: #101828;
+    font-size: 2.2em;
+}
+.rodape p {
+    color: #667085;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.email-botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.rodape input {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #D0D5DD;
+    padding: 15px 160px 10px 15px;
+    border-radius: 6px;
+    outline: none;
+}
+.rodape input::placeholder {
+    color: #667085;
+    font-size: 16px;
+}
+.rodape .email-botao button {
+    padding: 15px 30px 15px 30px;
+    background-color: #a13636;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: -15px;
+    border: none;
+}
+.rodape #rodape-texto{
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.profissoes-abertas {
+    display: flex;
+    justify-content: center;
+    align-items:  flex-start;
+    flex-direction: column;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+}
+.profissoes-abertas h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.profissoes {
+    width: 700px;
+    border: 2px solid #EAECF0;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.profissoes h4 {
+    color: #101828;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.salario {
+    display: flex;
+    gap: 30px;
+}
+.profissoes p {
+    color: #667085;
+    font-weight: 500;
+}
